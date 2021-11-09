@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Operasi Matematika</title>
+
+        <script>
+            function kurang() {
+                a = document.register.a.value;
+                b = document.register.b.value;
+
+                kurang = a - b;
+
+                alert(a+ " - " +b+ " = " +kurang)
+            }
+        </script>
+        <script>
+            function tambah() {
+                a = document.register.a.value;
+                b = document.register.b.value;
+
+                tambah = a + b;
+
+                alert(a+ " + "+b+ " + " +tambah)
+            }
+        </script>
+        <script>
+            function kali () {
+                a = document.register.a.value;
+                b = document.register.b.value;
+
+                kali = a * b;
+
+                alert(a+ " * " +b+ " * " +kali)
+            }
+        </script>
+        <script>
+            function bagi () {
+                a = document.register.a.value;
+                b = document.register.b.value;
+
+                bagi = a / b;
+
+                alert(a+ " / "+b+ " / " +tambah)
+            }
+        </script>
+</head>
+<body>
+    <form name="aritmatika">
+        <input type="text" name="a" placeholder="Input Bilangan 1"><br/>
+        <input type="text" name="b" placeholder="Input Bilangan 2"><br/>
+        <input type="button" onclick="kurang()" value="-">
+        <input type="button" onclick="bagi()" value=" / ">
+        <input type="button" onclick="tambah()" value=" + ">
+        <input type="button" onclick="kali()" value=" * "> 
+    
+    </form>
+</body>
+</html>
